@@ -6,7 +6,7 @@ The objectibe of this repository is to give overview of deplyoing a pretrained d
 
 The pretrained model which has been used is [kornia implementation](https://kornia.readthedocs.io/en/latest/applications/image_matching.html) of LoFTR: Detector-Free Local Feature Matching with Transformers. LoFTR can extract high-quality semi-dense matches even in indistinctive regions with low-textures, motion blur, or repetitive patterns. 
 
-
+![image](./demo/images/output.jpg)
 
 ## To-Do
 1. Install [Docker](https://docs.docker.com/engine/install/) as per your operating system.
@@ -15,3 +15,7 @@ The pretrained model which has been used is [kornia implementation](https://korn
 3. Build docker image by running ```docker build -t IMAGE_NAME .``` e.g. ```docker build -t image_mathcing .```
 4. Run docker container to deploy on host ```docker run --gpus all -p HOST_PORT:CONTAINER_PORT IMAGE_NAME``` e.g. ```docker run --gpus all -p 5000:5000 image_matching```
 PS: Use ```--gpus all``` if host machine contains GPU 
+
+
+https://github.com/Deshram/dockerize-image-matching-model/assets/43752639/e79c1931-794f-44ee-8cf5-ca00cf5b6fb3
+
