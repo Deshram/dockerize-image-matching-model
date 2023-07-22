@@ -18,5 +18,6 @@ The pretrained model which has been used is [kornia implementation](https://korn
 PS: Use ```--gpus all``` if host machine contains GPU 
 
 
-https://github.com/Deshram/dockerize-image-matching-model/assets/43752639/e79c1931-794f-44ee-8cf5-ca00cf5b6fb3
+
+https://github.com/Deshram/dockerize-image-matching-model/assets/43752639/42cd6637-4b6d-402d-b417-2d1a31e81879
 
